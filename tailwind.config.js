@@ -9,9 +9,12 @@ module.exports = {
 
       content: {
         'earth': 'url("../images/Earth.png")',
+        'location': 'url("../images/location.png")',
       },
   
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }
